@@ -1,0 +1,5 @@
+package modelo
+
+open class Usuario(val nombre: String, val contacto: String) {
+    open fun mostrarInformacion(): String = "Nombre: $nombre | Contacto: $contacto"
+}
